@@ -1,0 +1,226 @@
+body{
+	font-family:'Acme', serif;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 22px;
+	color: #393053;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #eee;
+	position: relative;
+	min-height: 100vh;
+}
+.sidebar{
+  display:flex;
+	position: relative;
+  justify-content: left;
+  height: 350px;
+  width: 350px;
+	top:-30px;
+	left:70px;
+  float: left;
+  text-align: left;
+  background-color: #FFF4E0;
+  border: 5px solid #5D6063;
+  border-radius: 5px;
+ 
+}
+
+.container {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	
+}
+
+h1{
+	font-size: 70px;
+}
+
+.btn-next {
+	background-color: #CCD6A6;
+	color: rgb(0, 0, 0);
+	border-radius: 5px;
+	border: 1px solid #000000;
+	font-weight: 700;
+}
+
+nav{
+	left: 56%;
+}
+.btn-inicio {
+	background-color: #CCD6A6;
+	color: rgb(0, 0, 0);
+	border: 1px solid #000000;
+	border-radius: 5px;
+	font-weight: 700;
+}
+
+.btn-next:hover {
+	background-color: #CCD6A6;
+}
+
+.btn-inicio:hover {
+	background-color: #CCD6A6;
+}
+
+.text-it {
+	margin-top: 10px;
+	font-size: 16px;
+}
+#inputValues{
+	/* position: relative; */
+	top: 0px;
+	left: 150px;
+}
+
+#showss{
+	margin: 0;
+  position: relative;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	background-color: #CCD6A6;
+}
+#tableInicial{
+	margin-top: 10px;
+}
+table{
+	table-layout: fixed;
+	border-width: 1px;
+  border-color: #000000;
+  border-collapse: collapse;
+}
+tr,th,td{
+	background-color: #FFF4E0;
+	border-style: solid;
+  border-color: #000000;
+}
+
+table td:first-child {
+	background-color: #FFF4E0;
+	border-style: solid;
+  border-color: #000000;
+}
+
+table tr:first-child {
+	background-color: #FFF4E0;
+	border-style: solid;
+  border-color: #000000;
+}
+
+table tr:first-child td:first-child{
+	background-color: #FFF4E0;
+	border-style: solid;
+  border-color: #000000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+button{
+	margin: 3px;
+	font-size: 22px;
+}
+
+input{
+	width: 40vh;
+	border-radius: 4px;
+	text-decoration: none;
+	box-shadow: none;
+	text-align: center;
+	border-radius: 3px;
+	color: #0D0D0D;
+}
+span.input-group-text{
+	font-size: 22px;
+}
+
+button#firstPhase, button#solveSimplex, button#stepByStep, button#again {
+	font-size: 18px;
+}
+
+.input-val {
+	height: 30px;
+	width: 100px;
+	margin-right: 10px;
+}
+
+
+
+
+
+.input-plus {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.m-text {
+	margin-right: 10px;
+}
+
+.equal-m {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#quantDecision , #quantRestriction{
+	width: 80px;
+	height: 40px;
+}
+
+td {
+	min-width: 80px;
+	max-width: fit-content;
+}
+
+
+@media (max-width: 1000px) {
+	*{padding: 0;}
+	body  , html{
+		width: 100vw;
+		overflow-x: hidden;
+		font-size: 13px;
+	}
+	.container {
+		width: 100%;
+	}
+.input-val {
+	height: 32px;
+	width: 60px;
+
+}
+#divTableInitial,
+#divTableParcial1,
+#divTableFinal{
+	width: 100%;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+	}
+
+	#name {
+		position: fixed;
+		bottom: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	d-none {
+		display: none !important;
+	}
