@@ -402,8 +402,8 @@ function PrimeiroPasso() {
       }
     }
 
-    $('#startInputs').remove();
-    $('#nameApp').remove()
+    $('#startInputs').hide();
+    $('#nameApp').hide();
     $("#inputValues").remove();
     
     generateFunctionZ(quantDec);
