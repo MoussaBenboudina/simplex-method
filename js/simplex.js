@@ -402,8 +402,10 @@ function PrimeiroPasso() {
       }
     }
 
+    $('#startInputs').remove();
+    $('#nameApp').remove()
     $("#inputValues").remove();
-
+    
     generateFunctionZ(quantDec);
 
     generateRestrictions(quantDec, quantRes);
